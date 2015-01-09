@@ -1,0 +1,28 @@
+{
+  "name": "Bookshelf",
+  "version": "0.0.0",
+  "description": "A bookshelf app",
+  "main": "index.js",
+  "dependencies": {
+    "restify": "2.8.4",
+    "config": "1.10",
+    "mongoose": "3.8"
+  },
+  "devDependencies": {
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/GarciaSouza/Bookshelf"
+  },
+  "keywords": [
+    "Bookshelf"
+  ],
+  "author": "Garcia Souza",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/GarciaSouza/Bookshelf/issues"
+  }
+}
