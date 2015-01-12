@@ -16,6 +16,11 @@ server.use(restify.bodyParser({mapParams:false}));
 
 api.Book.createApi(server);
 
+server.get(/\/app\/?.*/, restify.serveStatic({
+  directory: '../frontend',
+  default: 'index.html'
+}));
+
 server.listen(config.port, function(){
   console.log('%s listenning at %s', server.name, server.url);
 });
