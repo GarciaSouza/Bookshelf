@@ -1,5 +1,5 @@
 [
-	'Book'
+  'Book'
 ].forEach(function(a){
-	module.exports[a] = require('./'+a);
+  module.exports[a] = require('./'+a);
 });
